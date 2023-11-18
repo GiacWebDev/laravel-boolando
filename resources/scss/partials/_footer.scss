@@ -1,0 +1,35 @@
+footer {
+    background-color: $secondary-color;
+    padding: 15px 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left,
+  .right {
+    margin: 0;
+  }
+
+  .legal-info {
+    display: flex;
+  }
+
+  .social ul {
+    display: flex;
+  }
+
+  .social ul li{
+    margin: 5px;
+    color: white;
+  }
+
+  span a {
+    color: $text-secondary-color;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: .7rem;
+  }
