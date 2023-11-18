@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h4 {
+    color: black;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  * {
+    padding: 0;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .container {
+    width: 1400px;
+  }
+
+  .debug {
+    border: 1px solid black;
+  }
+
+  .debug-w {
+    border: 1px solid white;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
