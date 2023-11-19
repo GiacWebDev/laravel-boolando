@@ -34,11 +34,13 @@ header {
   color: white;
   font-weight: 600;
   font-size: 1rem;
+    &:hover,
+    &.active{
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0.677);
+    }
   }
 
-  header .menu-header li a:hover {
-    text-decoration: underline;
-  }
 
   header .menu-header li {
     display: inline;
