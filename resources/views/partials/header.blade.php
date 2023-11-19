@@ -27,9 +27,9 @@
             <div class="list-header centered">
 
                 <ul>
-                    <li v-for="(item, index) in social_menu.header" :key="index">
-                        <a :href="item.href"><i :class="item.icon_class"></i></a>
-                    </li>
+                    <li><a href="#"><i class="fa-regular fa-user" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i></a></li>
                 </ul>
 
             </div>

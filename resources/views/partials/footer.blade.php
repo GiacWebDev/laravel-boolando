@@ -22,9 +22,11 @@
             <h3>Trovaci anche su</h3>
             <div class="social">
                 <ul>
-                    <li v-for="(item, index) in social_menu.footer" :key="`socialFooter${index}`"><a
-                            :href="item.href"><i class="fa-brands" :class="item.icon_class"></i></a>
-                    </li>
+                    <li><a href="#"><i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-pinterest" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i></a></li>
                 </ul>
             </div>
         </div>

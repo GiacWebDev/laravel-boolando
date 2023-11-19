@@ -16,8 +16,7 @@
                             <p>{{ $product['discount'] }}</p>
                         </div>
                         <div class="green">
-                            {{-- <p>{{ productObj . sostenibilita }}</p>
-                    </div> --}}
+                            <p>{{ $product['sostenibilita'] }}</p>
                         </div>
                     </div>
                     <div class="bottom">
@@ -28,8 +27,9 @@
                         </p>
                     </div>
                 </div>
-            @empty
-                <h2>Non ci sono prodotti</h2>
+            </div>
+        @empty
+            <h2>Non ci sono prodotti</h2>
         @endforelse
     </div>
 @endsection
