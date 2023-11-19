@@ -6,9 +6,9 @@
             <!-- colonna sinistra header  -->
             <div class="menu-header centered">
                 <ul>
-                    <li><a href="#">Uomo</a></li>
-                    <li><a href="#">Donna</a></li>
-                    <li><a href="#">Bambino</a></li>
+                    <li><a href="{{ route('uomo') }}"></a>Uomo</li>
+                    <li><a href="{{ route('donna') }}">Donna</a></li>
+                    <li><a href="{{ route('bambino') }}">Bambino</a></li>
                 </ul>
             </div>
 

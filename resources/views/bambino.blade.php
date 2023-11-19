@@ -11,3 +11,8 @@
 
     </div>
 @endsection
+
+
+@section('title')
+    | Bambino
+@endsection
