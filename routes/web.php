@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('uomo');
+    // prendo con config tutti i prodotti con l'array
+    $products = config('products');
+    // passo qui tutti i prodotti da mostrare
+    return view('uomo', compact('products'));
 })->name('uomo');
 
 Route::get('/donna', function () {
@@ -24,3 +27,5 @@ Route::get('/donna', function () {
 Route::get('/bambino', function () {
     return view('bambino');
 })->name('bambino');
+
+
